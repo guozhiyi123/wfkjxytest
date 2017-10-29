@@ -1,0 +1,26 @@
+.right-biaodan{
+	width:850px;
+	height: 400px;
+	float: right;
+}
+.liu{
+	width:272px;
+	height: 200px;
+	float: left;
+	margin:10px 10px 5px 0;
+	border: 1px solid #ccc;
+}
+.liu img{
+	padding-top: 5px;
+	padding-left: 5px;
+	width:100px;
+	height: 100px;
+	float: left;
+}
+.liu p{
+	padding-top:5px;
+	padding-left: 10px;
+}
+#foot{
+clear:both
+}

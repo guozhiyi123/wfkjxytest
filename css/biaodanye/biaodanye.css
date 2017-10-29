@@ -1,0 +1,33 @@
+.right-biaodan{
+	width:800px;
+	height: 400px;
+	float: right;
+}
+
+.right-biaodan-1 {
+    font-size: 10pt;
+    line-height: 30px;
+    float: left;
+}
+.right-biaodan-1 a{
+	line-height: 30px;
+	color: #000;
+}
+.right-biaodan-2{
+	width:200px;
+	height: 500px;
+	float: right;
+}
+.right-biaodan-2 p{
+	padding-left: 50px;
+	padding-top: 10px;
+	line-height: 20px;
+
+}
+.pagination{
+        margin-left: 200px !important;
+}
+#foot{
+clear:both
+}
+

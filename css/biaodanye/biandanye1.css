@@ -1,0 +1,30 @@
+.right-content {
+    width: 880px;
+    background: #fff;
+    height: auto;
+    padding: 30px ;
+    position: relative;
+}
+.right-content li {
+    text-align: left;
+    background: url(../../img/jwc_12.png) left center no-repeat;
+    line-height: 32px;
+    width: 100%;
+    height: 33px;
+    text-indent: 10px;
+    color: #6e6e6e;
+    font-size: 14px;
+    list-style-type: none;
+}
+ .right-content li a {
+    text-align: left;
+    color: #000000;
+}
+ .right-content li span {
+    position: absolute;
+    right: 0;
+}
+.lcpage{
+    width:240px;
+    margin: 0 auto;
+}
