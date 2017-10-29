@@ -1,0 +1,136 @@
+.wid{
+    width: 1200px;
+    height:260px;
+    position: relative;
+    margin: 0 auto;
+}
+.wid img{
+    width: 1200px;
+    height: 260px;
+}
+.dqlm {
+    width: 220px;
+    height: 70px;
+    background: url(../img/dqlm-bg.png) repeat;
+    color: #fff;
+    font-size: 24px;
+    line-height: 70px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    padding-left: 26px;
+}
+.sy-content-2{
+    width: 1100px;
+    margin: 0 auto;
+}
+.wid1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.left {
+    width: 220px;
+    margin-right: -220px;
+    float: left;
+    position: relative;
+}
+.left-current,.left-list li a:hover {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 26px;
+    display: block;
+    float: left;
+    margin-bottom: 1px;
+    background: #6d6d6d;
+    color: #fff;
+}
+.left-list li a {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    color: #333;
+    font-size: 15px;
+    padding-left: 26px;
+    display: block;
+    float: left;
+    margin-bottom: 1px;
+    background: #eeeeee;
+}
+.left-xgc ul {
+    border-top: 2px solid #1e6f46;
+    padding-top: 5px;
+    float: left;
+}
+.left-xgc li {
+    width: 220px;
+    padding: 0 10px 0 26px;
+    overflow: hidden;
+    background: url(../img/point.jpg) no-repeat 20px center;
+    color: #333;
+    font-size: 14px;
+    line-height: 26px;
+}
+.left-xgc li a {
+    display: block;
+    width: 220px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+}
+.left-xgc-title {
+    float: left;
+    width: 220px;
+    height: 44px;
+    padding-left: 26px;
+    font-size: 16px;
+    line-height: 44px;
+    background: #1e6f46;
+    color: #fff;
+}
+.right{
+    width:860px;
+    float: right;
+}
+.right-title {
+
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 10px;
+    width: 840px;
+
+}
+.right-title h3{
+
+    color: #1e6f46;
+    font-size: 24px;
+    float: left;
+
+}
+.left-current {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding-left: 26px;
+    display: block;
+    float: left;
+    margin-bottom: 1px;
+    background: #6d6d6d;
+    color: #fff;
+}
+.local {
+    height: 55px;
+    line-height: 55px;
+    color: #333;
+    font-size: 14px;
+    float: right;
+}
+.local a{
+    color: #000000;
+}

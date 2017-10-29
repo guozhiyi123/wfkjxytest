@@ -1,0 +1,41 @@
+.hdcondent h3{
+    font-size: 24px;
+    text-align: center;
+    display: block;
+}
+.name{
+    font-size: 24px;
+    font-weight:700;
+}
+.name span{
+    font-size:20px;
+    font-weight:400;
+}
+.duties p{
+    font-size: 14px;
+    line-height: 180%;
+    text-indent: 2em;
+}
+.nameword{
+    color: #1e6f46;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.localcontenttitle{
+    text-align: center;
+     font-size: 24px;
+     color:  #1e6f46;
+}
+.form-control{
+    width:151px !important;
+}
+.form-group{
+    padding-left: 50px;
+}
+.form-inline{
+    width: 600px;
+    margin: 0 auto;
+}
+.btn{
+
+}

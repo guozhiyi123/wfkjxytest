@@ -1,0 +1,134 @@
+.top{
+    width: 1200;
+    height: 47px;
+    background: #2f4435;
+}
+.wid1100{
+    width: 1200px;
+    margin: 0 auto;
+}
+.top-left{
+    padding: 14px 0;
+    float: left;
+}
+ul,ol,li{
+    list-style: none;
+    float: left;
+}
+.top-left li{
+    margin-right: 20px;
+}
+.top-left li img {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.top-left li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 14px;
+    line-height: 18px;
+}
+.top-right {
+    position: relative;
+    top: 11px;
+    float: right;
+    width: 380px;
+}
+.top-right a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+}
+.top-right a:hover{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    float: left;
+}
+#top-search{
+    margin-left: 20px;
+    float: left;
+    line-height: 24px;
+}
+.icon-search {
+    background: url(../img/icon-search.png) center no-repeat;
+    width: 18px;
+    height: 16px;
+    float: right;
+}
+#top-button{
+    position:relative;
+    top:-30px;
+    left: 120px;
+}
+.logo {
+    width: 100%;
+    height: 100px;
+    background: #1e6f46;
+    float: left;
+    position:relative;
+    top:-13px;
+}
+.logo img{
+    width: 380px;
+}
+.logo-one{
+    width: 1200px;
+    height: 100px;
+    float: left;
+    background: url(../img/logo-bg.png) no-repeat right top;
+    text-align: left;
+    padding-top: 12px;
+}
+.menue{
+   margin: 0 auto;
+    width: 1100px;
+    height: 42px;
+    line-height: 42px;
+    clear:both;
+    }
+.nav{
+    position:relative;
+    top:-13px;
+    list-style: none;
+}
+.nav li a{
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial,'Lucida Grande',sans-serif;
+}
+
+.li-class:hover{
+    background: #1E6F46 !important;
+}
+.li-class a{
+    width: 100%;
+    height: 42px;
+    line-height: 42px !important;
+    padding: 0 29px !important;
+    background: transparent  !important;
+    color: #fff;
+}
+.li-class a:hover{
+    background: #1E6F46 !important;
+    color: #fff  !important;
+}
+.dropdown-menu{
+    background: url(../img/ej-bg.png) repeat;
+    min-width: 113px !important;
+    padding:  0 !important;
+    margin: -2px 0 0 0 !important;
+    border: 0  !important;
+}
+.dropdown-menu > li > a{
+    color: #fff  !important;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none  !important;
+    cursor: pointer;
+}
+

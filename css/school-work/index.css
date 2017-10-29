@@ -1,0 +1,15 @@
+.right-content h3{
+    color: #1e6f46;
+    font-size: 24px;
+    text-align:center
+}
+.right-content p{
+    text-indent: 2em;
+    font-size: 14pt;
+    line-height: 30px;
+
+}
+#foot{
+clear:both
+}
+

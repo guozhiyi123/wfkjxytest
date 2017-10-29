@@ -1,0 +1,374 @@
+/*孙肖宁*/
+#main {
+    position: relative;
+    top: -13px;
+}
+
+.carousel-indicators {
+    width: 100% !important;
+    margin-left: 0 !important;
+    left: 0  !important;
+    height: 48px !important;
+    bottom: 0 !important;
+    line-height: 48px !important;
+    margin: 0 !important;
+    padding: 10px 10px 10px 70px !important;
+    background-image: url(../img/bgcolor.png);
+    l
+}
+
+.item img {
+    width: 100%;
+    height: 400px !important;
+}
+
+#myCarousel {
+    width: 1200px !important;
+    margin: 0 auto !important;
+    height: 400px !important;
+}
+
+.carousel-indicators li {
+    margin-left: 7px !important;
+    position: relative;
+    top: 10px;
+}
+
+.item a {
+    position: relative;
+    top: -38px;
+    left: 900px;
+    color: #fff  !important;
+    font-size: 20px;
+}
+
+/*孙肖宁结束*/
+
+/*光灿*/
+#new {
+    width: 1100px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#new .left_new {
+    width: 350px;
+    height: 450px;
+    float: left;
+}
+#new .center_new {
+    width: 350px;
+    height: 450px;
+    margin-left: 30px;
+    float: left;
+}
+
+#new .center_new ul li {
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#new .right_new {
+    width: 350px;
+    height: 450px;
+    margin-left: 20px;
+    float: left;
+}
+
+.fgx {
+    width: 140px;
+    height: 5px;
+    background: #1E6F46;
+    overflow: hidden;
+}
+
+.fgx_1 {
+    width: 360px;
+    height: 2px;
+    background: #ccc;
+    overflow: hidden;
+}
+
+.fgx_center {
+    width: 242px;
+    height: 5px;
+    background: #1E6F46;
+    overflow: hidden;
+}
+
+.left_new ul li {
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.fgx_right {
+    width: 150px;
+    height: 5px;
+    background: #1E6F46;
+    overflow: hidden;
+}
+
+.right_new ul li {
+    margin-top: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.right_new_shang {
+    height: 185px;
+}
+
+.right_new_xia {
+    margin-top: 50px;
+}
+
+.fgx_beida {
+    width: 1200px;
+    height: 2px;
+    background: #ccc;
+    overflow: hidden;
+}
+
+#gundong {
+    width: 1100px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#gundong img {
+    margin-left: 20px;
+}
+
+#mo_fang_bei_da {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#mo_fang_bei_da .mo_fang_bei_da_shang {
+    width: 1100px;
+    height: 380px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#mo_fang_bei_da .mo_fang_bei_da_shang ul li img {
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    box-shadow: 5px 2px 6px #000;
+    margin-top: 30px;
+}
+
+#footer {
+    width: 100%;
+    height: 240px;
+    background: #1E6F46;
+}
+
+ul li a {
+    color: #000000 !important;
+    font-size: 14px !important;
+}
+
+ul li a:hover {
+    text-decoration: none
+}
+
+#foot{width:100%;height:180px;background:#1E6F46;}
+#foot .foot_pic{width:1200px;height:150px;margin:0 auto;}
+#foot .foot_pic_xx{float:left;margin-top:50px;}
+#foot .foot_pic_x{height:90px;margin-left:50px;float:left;margin-top:30px;}
+#foot .foot_pic_x img{margin-left:30px;width:60px;height:60px;}
+#foot .foot_pic_text{width:600px;height:30px;}
+#foot .foot_pic_text li{font-size:20px;margin-left:16px;color:#fff;font-family:'微软雅黑';}
+
+#foot .bq{width:100%;height:30px;background:rgba(0,0,0,0.5)}
+#foot .bq .bq_text{width:1000px;height:30px;margin:0 auto;}
+#foot .bq .bq_text li{color:#fff;margin-left:30px;line-height:30px;}
+
+/*光灿结束*/
+
+
+/*淘宝轮播*/
+#cent {
+    width: 1100px;
+    height: 352px;
+    margin: auto;
+}
+
+.title {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #e8e7ea;
+    line-height: 44px;
+    float: left;
+}
+
+.title h3 {
+    display: inline-block;
+    border-bottom: 3px solid #1a6c46;
+    padding: 0 3px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+    line-height: 23px;
+}
+
+.more {
+    display: block;
+    float: right;
+    color: #1a6c46;
+    font-size: 14px;
+    line-height: 44px;
+}
+
+.xinwen {
+    width: 1200px;
+    height: 291px;
+    margin-top: 15px;
+    float: left;
+}
+
+.lunbo {
+    position: relative;
+    width: 375px;
+    height: 255px;
+    float: left;
+}
+
+.zuo {
+    margin-left: 20px;
+    position: relative;
+    width: 360px;
+    height: 290px;
+    float: left;
+}
+
+.zuo ul {
+    list-style: none;
+    float: left;
+}
+
+.zuo ul li {
+    width: 330px;
+    height: 85px;
+    margin: 0px 0px 15px  0px;
+}
+
+.tupian {
+    width: 100px;
+    height: 77px;
+    float: left;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.tupian img {
+    width: 110px;
+    height: 77px;
+}
+
+.wenzi {
+    width: 200px;
+    height: 77px;
+    float: right;
+}
+
+.wenzi a {
+    text-decoration: none;
+    line-height: 20px;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.wenzi p {
+    line-height: 20px;
+    height: 40px;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.you {
+    position: relative;
+    right: 34px;
+    width: 380px;
+    height: 290px;
+    float: right;
+}
+
+.you ul {
+    list-style: none;
+    float: left;
+}
+
+.you ul li {
+    width: 330px;
+    height: 85px;
+    margin: 0px 0px 15px  0px;
+}
+
+.wrap {
+    height: 255px;
+    width: 375px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 10px 0 auto;
+}
+
+.wrap ul {
+    position: absolute;
+}
+
+.wrap ul li {
+    height: 450px;
+}
+
+.wrap ol {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.wrap ol li {
+    height: 20px;
+    width: 20px;
+    background: #ccc;
+    border: solid 1px #666;
+    margin-left: 5px;
+    color: #000;
+    float: left;
+    line-height: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrap ol .on {
+    background: #E97305;
+    color: #fff;
+}
+/*淘宝轮播结束*/
+
+
+
+/*无缝滚动*/
+#demo{
+    padding-top: 30px;
+     overflow: hidden;
+     width: 1100px;
+     height: 185px;
+     margin: 0 auto;
+}
+.a1 img{
+    width:250px;
+    height: 110px;
+}
+/*无缝滚动结束*/
