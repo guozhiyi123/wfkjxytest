@@ -1,0 +1,22 @@
+.right-content{
+	background: url(../../img/school-profit/timg.jpg) no-repeat;
+	background-color: rgb(0,0,0);
+	width: 800px;
+	height: 820px;
+}
+#title{
+	color: black;
+	float: right;
+	float: left;
+	margin:0 auto; 
+}
+#right{
+	float: right;
+	font-size: 20px;
+	line-height: 25px;
+}
+#right pre{
+	font-size: 18px;
+	line-height: 25px;
+	color: black;
+}

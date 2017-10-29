@@ -1,0 +1,17 @@
+#big{
+	width: 650px;
+	margin:0 auto;
+
+}
+.six{
+	width:170px;
+	height: 200px;
+	float: left;
+margin:20px;
+text-align: center;
+}
+.six img{
+	width: 170px;
+	height: 180px;
+
+}
