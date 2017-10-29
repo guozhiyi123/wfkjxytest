@@ -1,249 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+
+  <head>
+    <meta charset="UTF-8" />
     <title>机械工程学院</title>
     <!-- 初始化css -->
-    <link rel="stylesheet" type="text/css" href="../../css/Initialization.css">
+    <link rel="stylesheet" type="text/css" href="../../css/Initialization.css" />
     <!-- 引入自己的css -->
-    <link rel="stylesheet" type="text/css" href="../../css/nav.css">
-    <link rel="stylesheet" type="text/css" href="../../css/index.css">
-    <link rel="stylesheet" href="../../css/index2.css">
+    <link rel="stylesheet" type="text/css" href="../../css/nav.css" />
+     <link rel="stylesheet" type="text/css" href="../../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/publicindex.css">
+    <link rel="stylesheet" type="text/css" href="../../css/hover-effects.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/school-work/index.css">
+    <link rel="stylesheet" type="text/css" href="../../css/school-work/LeagueCommittee.css">
     <!-- 引入bootstrop开始 -->
-    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-theme.min.css">
-    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap-theme.min.css" />
+    <script src="../../js/jquery.min.js"></script>
     <script type="text/javascript" src="../../bootstrap/js/bootstrap.min.js"></script>
-     <!-- 引入bootstrop结束 -->
-    <!--  引入自己的js -->
-     <script type="text/javascript" src="../../js/wySilder.min.js"></script>
-     <script type="text/javascript" src="../../js/nav.js"></script>
+    <!-- 引入bootstrop结束 -->
+    <!-- 引入自己的js -->
+    <script type="text/javascript" src="../../js/wySilder.min.js"></script>
+    <script type="text/javascript" src="../../js/nav.js"></script>
+    <script type="text/javascript" src="../../js/index.js"></script>
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+  </head>
 
-     <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
-</head>
-<body>
-        <div  id="content">
-            <div id="header">
-            <div class="top">
-                    <div class="wid1100">
-                        <div class="top-left">
-                            <ul>
-                                <li><a href="#"><img src="../../img/top-1.jpg" alt="潍科信息网">潍科信息网</a></li>
-                                <li><a href="#"><img src="../../img/top-1.jpg" alt="">信息公开</a></li>
-                                <li><a href="#"><img src="../../img/top-2.jpg" alt="">信息门户</a></li>
-                                <li><a href="#"><img src="../../img/top-3.jpg" alt="量化系统">量化系统</a></li>
-                                <li><a href="#"><img src="../../img/top-4.jpg" alt="">邮箱系统</a></li>
-                            </ul>
-                        </div>
-                        <div class="top-right">
-                        <a href="#">English  I </a>
-                        <a href="#">汉语</a>
-                        <form id="top-search">
-                        <input class="form-control input-sm" type="text" placeholder="请输入搜索的内容">
-                        <button class="btn btn-default" id="top-button">
-                            <span class="icon icon-search"></span>
-                        </button>
-                        </form>
-                        </div>
-                    </div>
-                </div>
-                <div class="logo">
-                    <div class="wid1100">
-                        <a href="#" class="logo-one"><img src="../../img/logo.png"></a>
-                    </div>
-                </div>
-                <div class="menue">
-                            <ul id="main-menu" class="nav">
-                                <li class="li-class">
-                                <a href="#">网站首页</a>
-                                </li>
-                                 <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                            <!-- 院系工作 -->
-                                <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">院系工作 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="software">中印计算机软件学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#sg">士官学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#jsx">贾思勰农学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#hg">化工与环境学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#qc">汽车工程学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#jx">机械工程学院</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#jz">建筑工程学院</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                 <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                 <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                   <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                                   <li class="dropdown li-class">
-                                <a href="#"  class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况 </b></a>
-                                        <ul class="dropdown-menu">
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        <li class="li-class">
-                                        <a href="#">学院概况</a>
-                                        </li>
-                                        </ul>
-                                  </li>
-                            </ul>
-                </div>
+  <body>
+    <div id="content">
+      <div id="header">
+        <div class="top">
+          <div class="wid1100">
+            <div class="top-left">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="../../img/top-1.jpg" alt="潍科信息网" />潍科信息网</a></li>
+                <li>
+                  <a href="#">
+                    <img src="../../img/top-1.jpg" alt="" />信息公开</a></li>
+                <li>
+                  <a href="#">
+                    <img src="../../img/top-2.jpg" alt="" />信息门户</a></li>
+                <li>
+                  <a href="#">
+                    <img src="../../img/top-3.jpg" alt="量化系统" />量化系统</a></li>
+                <li>
+                  <a href="#">
+                    <img src="../../img/top-4.jpg" alt="" />邮箱系统</a></li>
+              </ul>
             </div>
-            <div id="main">
-            <!-- 第一大块 -->
-                   <div class="wid100">
-                        <div class="banner-1">
-                           <div> <div class="dqlm">院系工作</div>
-                            <img src="../../img/list-banner.jpg" alt=""></div>
-                        </div>
-                   </div> 
-            <!--第二大块  -->
-                   <div id="sy-content">
-                        <div class="wid1200">
-                            <div class="sy-content-2">
-                                <div class="sy-part-1">
-                                    <div class="left">
-                                        <div class="left-list">
-                                            <ul>
-                                                <!-- <li class="left-current">院系工作</li> -->
-                                                <li><a href="#rj">中印计算机软件学院</a></li>                                               
-                                                <li ><a href="#sg">士官学院</a></li>
-                                                <li><a href="#jsx">贾思勰农学院</a></li>
-                                                <li><a href="#hg">化工与环境学院</a></li>
-                                                <li><a href="#qc">汽车工程学院</a></li>
-                                                <li><a href="#jx">机械工程学院</a></li>
-                                                <li><a href="#jz">建筑工程学院</a></li>
-                                        </li>
-                                            </ul>
-                                            <div class="clear"></div>
-                                        </div>
-                                        <div class="left-tjxw">
-                                            <div class="left-tjxw-title">
-                                                潍科要闻
-                                               <a href="#" class="left-more">
-                                                    <img src="../../img/left-more.jpg" alt="">
-                                               </a>
-                                            </div>
-                                            <ul>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li> 
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>
-                                                <li><a href="#">热烈庆祝十九大胜利召开</a></li>       
-                                            </ul>
-                                            <script>
-                                             _showDynClickBatch(['dynclicks_u9_26410','dynclicks_u9_26407','dynclicks_u9_26404','dynclicks_u9_26389','dynclicks_u9_26390','dynclicks_u9_26388','dynclicks_u9_26384'],[26410,26407,26404,26389,26390,26388,26384],"wbnews", 1265742740)
+            <div class="top-right">
+              <a href="#">English I</a>
+              <a href="#">&nbsp;汉语</a>
+              <form id="top-search">
+                <input class="form-control input-sm" type="text" placeholder="请输入搜索的内容" />
+                <button class="btn btn-default" id="top-button">
+                  <span class="icon icon-search"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <div class="wid1100">
+            <a href="#" class="logo-one">
+              <img src="../../img/logo.png" width="420px" /></a>
+          </div>
+        </div>
+        <div class="menue">
+          <ul id="main-menu" class="nav">
+            <li class="li-class">
+              <a href="#">网站首页</a></li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+            <li class="dropdown li-class">
+              <a href="#" class="dropdown-toggle fontcolor" data-toggle="dropdown">学院概况</a>
+              <ul class="dropdown-menu">
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+                <li class="li-class">
+                  <a href="#">学院概况</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <div class="wid">
+          <div class="dqlm">院系工作</div>
+          <img src="../../img/1-1.jpg"></div>
+        <div class="wid1200">
+          <div class="sy-content-2">
+            <div class="left">
+              <div class="left-list">
+                  <ul>
+                  
+                          <li ><a href="ruanjian.html">中印计算机软件学院</a></li>                                               
+                              <li ><a href="./shiguan.html">士官学院</a></li>
+                                  <li><a href="./nong.html">贾思勰农学院</a></li>
+                                    <li><a href="./huagong.html">化工与环境学院</a></li>
+                                      <li><a href="./qiche.html">汽车工程学院</a></li>
+                                          <li class="left-current">机械工程学院</li>
+                                          <li><a href="./jiangong.html">建筑工程学院</a></li>
+                                       
+                     </ul>
+              </div>
+              <div class="left-xgc">
+                <div class="left-xgc-title">推荐新闻
+                  <a href="">
+                    <img src="../../img/left-mpre.jpg"></a></div>
+                <ul>
+                  <li>
+                    <a href="#">山东省教育厅向全省推介我院产教融合培养应用型人才办学经验</a></li>
+                  <li>
+                    <a href="#">我院开设党员公益课堂 助力学生思政教育</a></li>
+                  <li>
+                    <a href="#">我院教师获省高校青年教师教学大赛二等奖</a></li>
+                  <li>
+                    <a href="#">我院举行教师主题读书月活动颁奖仪式</a></li>
+                  <li>
+                    <a href="#">我院举行行政干部职员学习会</a></li>
+                  <li>
+                    <a href="#">我院“青年马克思主义培养工程”第一期培训班开班</a></li>
+                  <li>
+                    <a href="#">天津大学客人来我院考察调研</a></li>
+                  <li>
+                    <a href="#">我院举行“校园迷你马拉松”大赛</a></li>
+                  <li>
+                    <a href="#">我院举行新教师培训讲座</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="right">
+              <div class="right-title">
+         
+                <h3>院系工作</h3>
+                <div class="local">
+                  <span>您当前的位置：</span>
+                  <a href="#">院系工作</a>>
+                  <a href="#">机械工程学院</a>>
+                  
+                </div>
+                </div>
 
+              <div class="right-content">
 
-                                            </script>
-                                            <div class="clear"></div>
-                                        </div>
-                                    </div>
-                                    <div class="right">
-
-                                        <div class="right-1">
-                                            <div class="right-title">
-                                                <h3>院系工作</h3>
-                                                <div class="local">
-                                                    <span>您当前的位置：</span>
-                                                    <a href="#">院系工作</a>
-
-                                                    &nbsp;&gt;&nbsp;
-                
-                                                    <a href="#">机械工程学院</a>
-                                                     &nbsp;&gt;&nbsp;
-
-                                                   
-
-
-                                                </div>
-                                            </div>
-                                            <div class="jj">
-                                                <div id="vs-content-1">
-                                                    <div id="vs-content-2">
-                                                     <!-- 机械工程学院 -->
-                                                            <div id="jx"></div><!-- 锚点 -->
-                                                     <p class="start"><br></p>
-                                                        <p class="video"><br></p>
+                                          
+                                                  <br><br>
                                                         <p>
                                                             <span>
                                                             <strong>
@@ -253,31 +218,82 @@
                                                             </span>
                                                         </p>
                                                         <br><br>
+                                                  <p>机械工程学院成立于2006年12月，现设有机械设计制造及其自动化、机械电子工程2个本科专业，机械制造与自动化、数控技术和模具设计与制造3个专科专业。现有专任教师97人，其中教授6人，副高级职称29人，具有硕士以上学位教师75人。</p>
 <p>
-机械工程学院成立于2006年12月，现设有机械设计制造及其自动化、机械电子工程2个本科专业，机械制造与自动化、数控技术和模具设计与制造3个专科专业。现有专任教师97人，其中教授6人，副高级职称29人，具有硕士以上学位教师75人。
-</p>
-<p>
-学院坚持教学工作中心地位不动摇，规范教学过程管理，教学质量不断提升。经过多年的实践与探索，学科专业建设取得显著成绩，模具设计与制造专业成为山东省企校共建工科专业；《机械设计基础》、《机械制图》、《机械制造基础》、《互换性与公差测量》、《工程力学》等课程被评为院级精品课程。
-</p>
+学院坚持教学工作中心地位不动摇，规范教学过程管理，教学质量不断提升。经过多年的实践与探索，学科专业建设取得显著成绩，模具设计与制造专业成为山东省企校共建工科专业；《机械设计基础》、《机械制图》、《机械制造基础》、《互换性与公差测量》、《工程力学》等课程被评为院级精品课程。</p>
 <p>
 学院高度重视对学生技能的培养，不断加强实践教学管理，积极拓展校外实训基地，紧密校企合作，努力为社会、企业培养应用型高技能人才。学院现拥有机械创新实验室、机械原理实验室、CAD/CAM实验室、有限元分析实验室、液压与气动实验室、金相实验室等15个实验室和数控实训室、车工实训室、焊钳实训室等3个实训室。与中国重汽济南桥箱有限公司、比德文控股集团、歌尔声学、墨龙集团、康跃科技、泰丰制动、山东东方曼等企业建有稳定的校外实训基地，为学生的技能培养搭建了宽广的平台。</p>
 <p>
 学院始终坚持面向就业育人才，以促进学生的优质就业为工作目标。通过专题讲座、模拟创业比赛等活动加强对学生的专业教育、创业教育和就业指导，提升学生对专业的认可度，增强学生的就业信心，激发学生的创业热情。近三年本科生整体就业率在95%以上，学生过硬的专业技能和良好的综合素养受到用人单位的一致好评。
+</p>
+<p>
+机械工程学院全体师生将一如既往的坚持“以生为本，质量为魂”的办学理念，以为社会培养高技能应用型人才为己任，不断开拓创新，追求卓越。
+                    </p>                                    
+              </div>
 
-机械工程学院全体师生将一如既往的坚持“以生为本，质量为魂”的办学理念，以为社会培养高技能应用型人才为己任，不断开拓创新，追求卓越。</p> 
-                                                    </div>
 
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                   </div>    
-            </div>
-            <div id="footer"></div>
+              <!-- 分页 
+              <div class="lcpage">
+                <nav aria-label="Page navigation">
+                  <ul class="pagination">
+                    <li>
+                      <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span></a>
+                    </li>
+                    <li>
+                      <a href="#">1</a></li>
+                    <li>
+                      <a href="#">2</a></li>
+                    <li>
+                      <a href="#">3</a></li>
+                    <li>
+                      <a href="#">4</a></li>
+                    <li>
+                      <a href="#">5</a></li>
+                    <li>
+                      <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>-->
+              <!-- 分页 --></div>
+          </div>
         </div>
-</body>
+      </div>
+      <div id="foot">
+          <div class="foot_pic">
+            <div class="foot_pic_xx">
+              <img src="../../img/xx1.png" style="opacity:0.5;"></div>
+            <div class="foot_pic_x">
+              <img src="../../img/dq1.png">
+              <img src="../../img/ds2.png">
+              <img src="../../img/bz3.png">
+              <img src="../../img/wx5.png">
+              <img src="../../img/link-5.png">
+              <img src="../../img/wb.png">
+              <div class="foot_pic_text">
+                <li>潍科新闻</li>
+                <li>广播电视</li>
+                <li>电子校报</li>
+                <li>校务信箱</li>
+                <li>潍科微信</li>
+                <li>潍科官网</li></div>
+            </div>
+          </div>
+          <div class="bq">
+            <div class="bq_text">
+              <li>版权所有©潍坊科技学院</li>
+              <li>|</li>
+              <li>地址：寿光市圣城街道潍坊科技学院</li>
+              <li>|</li>
+              <li>邮政编码:262700</li>
+              <li>|</li>
+              <li>
+                <img src="../../img/ga.png">潍公网安备 42010602000204号</li></div>
+          </div>
+        </div>
+    </div>
+  </body>
+
 </html>
